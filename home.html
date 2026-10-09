@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Eatflow - Discover delicious, healthy and easy-to-make recipes for every occasion.">
+  <meta name="keywords" content="recipes, food, healthy food, cooking, breakfast, dinner, dessert">
+  <meta name="author" content="Eatflow">
+
+  <title>Eatflow | Healthy & Delicious Recipes</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md bg-black navbar-dark">
+      <div class="container">
+
+        <a class="navbar-brand" href="/home.html" aria-label="Eatflow home">
+          <img src="image/logo.svg" alt="Eatflow" class="logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+          <i class="fa-solid fa-bars open" aria-hidden="true"></i>
+          <i class="fa-solid fa-xmark close" aria-hidden="true"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <ul class="navbar-nav justify-content-center mx-auto">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/home.html">
+                Home
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/recipes.html">
+                Recipes
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/blog.html">
+                Blog
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">
+                Contact
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">
+                About us
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="social-links d-flex gap-3">
+
+            <a href="#" aria-label="Follow Eatflow on Facebook" class="text-white social-link">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#" aria-label="Follow Eatflow on Instagram" class="text-white social-link">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="Follow Eatflow on X" class="text-white social-link">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero-section p-0">
+
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+
+        <div class="carousel-indicators">
+
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1">
+          </button>
+
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2">
+          </button>
+
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3">
+          </button>
+
+        </div>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active hero-slide hero-slide-1">
+
+            <div class="container h-100 position-relative">
+
+              <div class="hero-content text-white">
+
+                <div class="recipe-badge mb-3">
+                  <img src="image/recipe.png" alt="">
+                  <span>Hot Recipes</span>
+                </div>
+
+                <h1>
+                  Enjoy
+                  <span class="highlight">Healthy</span>
+                  and
+                  <span class="highlight">Delicious</span>
+                  Food
+                </h1>
+
+                <p>
+                  Discover simple, delicious and healthy recipes made
+                  for everyday cooking. Find your next favorite meal
+                  and bring more joy to your kitchen.
+                </p>
+
+                <div class="recipe-meta">
+
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    30 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-utensils"></i>
+                    Chicken
+                  </span>
+
+                </div>
+
+                <div class="hero-bottom">
+
+                  <div class="author">
+
+                    <div class="author-image">
+                      <img src="image/chef-small.png" alt="Chef John Smith">
+                    </div>
+
+                    <div>
+                      <h6>John Smith</h6>
+                      <time datetime="2026-08-01">
+                        August 01, 2026
+                      </time>
+                    </div>
+
+                  </div>
+
+                  <a href="/recipes.html" class="view-recipe">
+                    <span>View Recipes</span>
+                    <i class="fa-solid fa-circle-play"></i>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="carousel-item hero-slide hero-slide-2">
+
+            <div class="container h-100 position-relative">
+
+              <div class="hero-content text-white">
+
+                <div class="recipe-badge mb-3">
+                  <img src="image/recipe.png" alt="">
+                  <span>Chef's Choice</span>
+                </div>
+
+                <h1>
+                  Fresh
+                  <span class="highlight">Flavors</span>
+                  for Every
+                  <span class="highlight">Day</span>
+                </h1>
+
+                <p>
+                  From quick breakfasts to satisfying dinners,
+                  explore recipes that are easy to prepare and
+                  packed with flavor.
+                </p>
+
+                <div class="recipe-meta">
+
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    25 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-leaf"></i>
+                    Healthy
+                  </span>
+
+                </div>
+
+                <div class="hero-bottom">
+
+                  <div class="author">
+
+                    <div class="author-image">
+                      <img src="image/chef-small.png" alt="Chef John Smith">
+                    </div>
+
+                    <div>
+                      <h6>John Smith</h6>
+                      <time datetime="2026-08-01">
+                        August 01, 2026
+                      </time>
+                    </div>
+
+                  </div>
+
+                  <a href="/recipes.html" class="view-recipe">
+                    <span>Explore Recipes</span>
+                    <i class="fa-solid fa-circle-play"></i>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="carousel-item hero-slide hero-slide-3">
+
+            <div class="container h-100 position-relative">
+
+              <div class="hero-content text-white">
+
+                <div class="recipe-badge mb-3">
+                  <img src="image/recipe.png" alt="">
+                  <span>Easy Recipes</span>
+                </div>
+
+                <h1>
+                  Cook
+                  <span class="highlight">Something</span>
+                  Amazing
+                  <span class="highlight">Today</span>
+                </h1>
+
+                <p>
+                  Delicious meals don't need to be complicated.
+                  Get inspired with our collection of easy,
+                  homemade recipes.
+                </p>
+
+                <div class="recipe-meta">
+
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    20 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-bowl-food"></i>
+                    Homemade
+                  </span>
+
+                </div>
+
+                <div class="hero-bottom">
+
+                  <div class="author">
+
+                    <div class="author-image">
+                      <img src="image/chef-small.png" alt="Chef John Smith">
+                    </div>
+
+                    <div>
+                      <h6>John Smith</h6>
+                      <time datetime="2026-08-01">
+                        August 01, 2026
+                      </time>
+                    </div>
+
+                  </div>
+
+                  <a href="/recipes.html" class="view-recipe">
+                    <span>Find a Recipe</span>
+                    <i class="fa-solid fa-circle-play"></i>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="hero-controls">
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev"
+            aria-label="Previous slide">
+
+            <span class="carousel-control-prev-icon"></span>
+
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next"
+            aria-label="Next slide">
+
+            <span class="carousel-control-next-icon"></span>
+
+          </button>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= CATEGORIES ================= -->
+    <section id="category">
+
+      <div class="container">
+
+        <div class="section-heading-row">
+
+          <h2>Categories</h2>
+
+          <a href="/recipes.html" class="btn btn-soft">
+            View All Categories
+          </a>
+
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a href="/recipes.html" class="category-card category-card-1">
+              <div class="category-image">
+                <img src="image/sushi.png" alt="Breakfast">
+              </div>
+              <h3>Breakfast</h3>
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a href="/recipes.html" class="category-card category-card-2">
+              <div class="category-image">
+                <img src="image/lettuce.png" alt="Vegan">
+              </div>
+              <h3>Vegan</h3>
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a href="/recipes.html" class="category-card category-card-3">
+              <div class="category-image">
+                <img src="image/meat.png" alt="Meat">
+              </div>
+              <h3>Meat</h3>
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a href="/recipes.html" class="category-card category-card-4">
+              <div class="category-image">
+                <img src="image/cake.png" alt="Dessert">
+              </div>
+              <h3>Dessert</h3>
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a href="/recipes.html" class="category-card category-card-5">
+              <div class="category-image">
+                <img src="image/sandwich.png" alt="Lunch">
+              </div>
+              <h3>Lunch</h3>
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a href="/recipes.html" class="category-card category-card-6">
+              <div class="category-image">
+                <img src="image/chocolate.png" alt="Chocolate">
+              </div>
+              <h3>Chocolate</h3>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= FEATURED RECIPES ================= -->
+    <section id="recipe" class="recipe-section">
+
+      <div class="container">
+
+        <div class="section-top text-center mx-auto">
+
+          <h2>Simple and tasty recipes</h2>
+
+          <p>
+            Discover delicious recipes that are simple enough for
+            everyday cooking and impressive enough to share.
+          </p>
+
+          <a href="/recipes.html" class="btn btn-soft">
+            View All Recipes
+          </a>
+
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-4 col-md-6">
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/burger.jpg" alt="Big and Juicy Wagyu Beef Cheeseburger" loading="lazy">
+
+                <button class="favorite-btn" type="button"
+                  aria-label="Add Big and Juicy Wagyu Beef Cheeseburger to favorites" aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Big and Juicy Wagyu Beef Cheeseburger</h3>
+                </a>
+
+                <div class="recipe-info">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    30 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-utensils"></i>
+                    Beef
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/fish.webp" alt="Fresh Lime Roasted Salmon with Ginger Sauce" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add salmon recipe to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Fresh Lime Roasted Salmon with Ginger Sauce</h3>
+                </a>
+
+                <div class="recipe-info">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    30 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-fish"></i>
+                    Seafood
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/pancake.jpg" alt="Strawberry Oatmeal Pancake" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add pancake recipe to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                </a>
+
+                <div class="recipe-info">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    20 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-utensils"></i>
+                    Breakfast
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/salad.jpg" alt="Fresh and Healthy Mixed Mayonnaise Salad" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add salad recipe to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Fresh and Healthy Mixed Mayonnaise Salad</h3>
+                </a>
+
+                <div class="recipe-info">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    15 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-leaf"></i>
+                    Healthy
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/meatball.webp" alt="Chicken Meatballs with Cream Cheese" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add chicken meatballs to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Chicken Meatballs with Cream Cheese</h3>
+                </a>
+
+                <div class="recipe-info">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    35 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-drumstick-bite"></i>
+                    Chicken
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <div class="food-poster">
+
+              <h3>Don't forget to eat healthy food</h3>
+
+              <div class="poster-image">
+                <img src="image/poster.png" alt="Eat healthy">
+              </div>
+
+              <a href="/home.html">
+                www.eatflow.com
+              </a>
+
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/lemon-pancake.jpg" alt="Fruity Pancake with Orange and Blueberry" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add fruity pancake to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Fruity Pancake with Orange & Blueberry</h3>
+                </a>
+
+                <div class="recipe-info">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    25 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-utensils"></i>
+                    Sweet
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/chicken-thigh.jpg" alt="One Pot Chicken and Rice" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add chicken and rice to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>The Best Easy One Pot Chicken and Rice</h3>
+                </a>
+
+                <div class="recipe-info">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    40 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-drumstick-bite"></i>
+                    Chicken
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/pasta.webp" alt="Creamy Chicken and Bacon Pasta" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add creamy pasta to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>The Creamiest Creamy Chicken and Bacon Pasta</h3>
+                </a>
+
+                <div class="recipe-info">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    35 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-utensils"></i>
+                    Pasta
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about">
+
+      <div class="container">
+
+        <div class="row align-items-center g-4">
+
+          <div class="col-lg-6">
+
+            <div class="about-content">
+
+              <span class="section-label">
+                ABOUT EATFLOW
+              </span>
+
+              <h2>
+                Everyone can be a chef in their own kitchen
+              </h2>
+
+              <p>
+                Cooking doesn't have to be complicated. Eatflow brings
+                together easy recipes, fresh ingredients and helpful
+                cooking inspiration so anyone can create delicious
+                meals at home.
+              </p>
+
+              <a href="/recipes.html" class="btn btn-dark-custom">
+                Learn More
+              </a>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="about-image">
+              <img src="image/chef.png" alt="Chef preparing food" loading="lazy">
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= INSTAGRAM ================= -->
+    <section id="instagram" class="instagram-section">
+
+      <div class="container">
+
+        <div class="section-top text-center mx-auto">
+
+          <h2>
+            Check out @eatflow on Instagram
+          </h2>
+
+          <p>
+            Follow Eatflow for daily food inspiration, cooking ideas
+            and delicious recipes.
+          </p>
+
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="instagram-card">
+
+              <div class="instagram-header">
+
+                <div class="instagram-profile">
+
+                  <div class="instagram-brand">
+                    <img src="image/logo.svg" alt="Eatflow">
+                  </div>
+
+                  <div>
+                    <h6>
+                      Eatflow.
+                      <img src="image/blue-tick.png" alt="Verified">
+                    </h6>
+
+                    <small>Kolkata, India</small>
+                  </div>
+
+                </div>
+
+                <i class="fa-solid fa-ellipsis"></i>
+
+              </div>
+
+
+              <div id="instagramCarousel1" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+
+                  <button type="button" data-bs-target="#instagramCarousel1" data-bs-slide-to="0" class="active"
+                    aria-label="Instagram image 1">
+                  </button>
+
+                  <button type="button" data-bs-target="#instagramCarousel1" data-bs-slide-to="1"
+                    aria-label="Instagram image 2">
+                  </button>
+
+                  <button type="button" data-bs-target="#instagramCarousel1" data-bs-slide-to="2"
+                    aria-label="Instagram image 3">
+                  </button>
+
+                </div>
+
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img src="image/post1.jpg" alt="Healthy vegetable dish">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="image/post2.jpg" alt="Fresh food">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="image/post3.webp" alt="Delicious recipe">
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="instagram-actions">
+
+                <div>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-regular fa-comment"></i>
+                  <i class="fa-regular fa-paper-plane"></i>
+                </div>
+
+                <i class="fa-regular fa-bookmark"></i>
+
+              </div>
+
+              <p class="instagram-likes">
+                Liked by <strong>caring_love</strong> and
+                <strong>45,678</strong>
+              </p>
+
+              <p class="instagram-caption">
+                Fresh vegetables, colorful ingredients and delicious
+                food made with love.
+              </p>
+
+              <small>August 01</small>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="instagram-card">
+
+              <div class="instagram-header">
+
+                <div class="instagram-profile">
+
+                  <div class="instagram-brand">
+                    <img src="image/logo.svg" alt="Eatflow">
+                  </div>
+
+                  <div>
+                    <h6>
+                      Eatflow.
+                      <img src="image/blue-tick.png" alt="Verified">
+                    </h6>
+
+                    <small>Kolkata, India</small>
+                  </div>
+
+                </div>
+
+                <i class="fa-solid fa-ellipsis"></i>
+
+              </div>
+
+
+              <div id="instagramCarousel2" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+
+                  <button type="button" data-bs-target="#instagramCarousel2" data-bs-slide-to="0" class="active">
+                  </button>
+
+                  <button type="button" data-bs-target="#instagramCarousel2" data-bs-slide-to="1">
+                  </button>
+
+                  <button type="button" data-bs-target="#instagramCarousel2" data-bs-slide-to="2">
+                  </button>
+
+                </div>
+
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img src="image/post2.jpg" alt="Fresh recipe">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="image/post3.webp" alt="Healthy food">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="image/post4.webp" alt="Homemade food">
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="instagram-actions">
+
+                <div>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-regular fa-comment"></i>
+                  <i class="fa-regular fa-paper-plane"></i>
+                </div>
+
+                <i class="fa-regular fa-bookmark"></i>
+
+              </div>
+
+              <p class="instagram-likes">
+                Liked by <strong>caring_love</strong> and
+                <strong>45,678</strong>
+              </p>
+
+              <p class="instagram-caption">
+                Simple ingredients can create incredible meals.
+              </p>
+
+              <small>August 01</small>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="instagram-card">
+
+              <div class="instagram-header">
+
+                <div class="instagram-profile">
+
+                  <div class="instagram-brand">
+                    <img src="image/logo.svg" alt="Eatflow">
+                  </div>
+
+                  <div>
+                    <h6>
+                      Eatflow.
+                      <img src="image/blue-tick.png" alt="Verified">
+                    </h6>
+
+                    <small>Kolkata, India</small>
+                  </div>
+
+                </div>
+
+                <i class="fa-solid fa-ellipsis"></i>
+
+              </div>
+
+
+              <div id="instagramCarousel3" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+
+                  <button type="button" data-bs-target="#instagramCarousel3" data-bs-slide-to="0" class="active">
+                  </button>
+
+                  <button type="button" data-bs-target="#instagramCarousel3" data-bs-slide-to="1">
+                  </button>
+
+                  <button type="button" data-bs-target="#instagramCarousel3" data-bs-slide-to="2">
+                  </button>
+
+                </div>
+
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img src="image/post3.webp" alt="Delicious meal">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="image/post4.webp" alt="Healthy meal">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="image/post1.jpg" alt="Vegetable recipe">
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="instagram-actions">
+
+                <div>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-regular fa-comment"></i>
+                  <i class="fa-regular fa-paper-plane"></i>
+                </div>
+
+                <i class="fa-regular fa-bookmark"></i>
+
+              </div>
+
+              <p class="instagram-likes">
+                Liked by <strong>caring_love</strong> and
+                <strong>45,678</strong>
+              </p>
+
+              <p class="instagram-caption">
+                Good food brings people together. What are you cooking
+                today?
+              </p>
+
+              <small>August 01</small>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="instagram-card">
+
+              <div class="instagram-header">
+
+                <div class="instagram-profile">
+
+                  <div class="instagram-brand">
+                    <img src="image/logo.svg" alt="Eatflow">
+                  </div>
+
+                  <div>
+                    <h6>
+                      Eatflow.
+                      <img src="image/blue-tick.png" alt="Verified">
+                    </h6>
+
+                    <small>Kolkata, India</small>
+                  </div>
+
+                </div>
+
+                <i class="fa-solid fa-ellipsis"></i>
+
+              </div>
+
+
+              <div id="instagramCarousel4" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+
+                  <button type="button" data-bs-target="#instagramCarousel4" data-bs-slide-to="0" class="active">
+                  </button>
+
+                  <button type="button" data-bs-target="#instagramCarousel4" data-bs-slide-to="1">
+                  </button>
+
+                  <button type="button" data-bs-target="#instagramCarousel4" data-bs-slide-to="2">
+                  </button>
+
+                </div>
+
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img src="image/post4.webp" alt="Homemade recipe">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="image/post1.jpg" alt="Healthy vegetables">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="image/post2.jpg" alt="Delicious food">
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="instagram-actions">
+
+                <div>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-regular fa-comment"></i>
+                  <i class="fa-regular fa-paper-plane"></i>
+                </div>
+
+                <i class="fa-regular fa-bookmark"></i>
+
+              </div>
+
+              <p class="instagram-likes">
+                Liked by <strong>caring_love</strong> and
+                <strong>45,678</strong>
+              </p>
+
+              <p class="instagram-caption">
+                A little inspiration for your next delicious dinner.
+              </p>
+
+              <small>August 01</small>
+
+            </article>
+
+          </div>
+
+        </div>
+
+
+        <div class="text-center mt-5">
+
+          <a href="/blog.html" class="btn btn-dark-custom">
+            Visit Our Blog
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= MORE RECIPES ================= -->
+    <section id="recipe-two">
+
+      <div class="container">
+
+        <div class="row align-items-center justify-content-between section-heading-row">
+
+          <div class="col-lg-5">
+
+            <h2>
+              Try this delicious recipe to make your day
+            </h2>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <p class="mb-0">
+              Explore more delicious recipes created for busy
+              weekdays, relaxed weekends and everything in between.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="row g-4">
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/mixed-fruit-salad.webp" alt="Mixed Tropical Fruit Salad" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add fruit salad to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="recipes.html" class="recipe-title">
+                  <h3>Mixed Tropical Fruit Salad with Superfood Boosts</h3>
+                </a>
+
+                <div class="recipe-info small">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    15 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-leaf"></i>
+                    Vegan
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/chicken.webp" alt="Roasted Chicken Cheeseburger" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add chicken cheeseburger to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="recipes.html" class="recipe-title">
+                  <h3>Big and Juicy Roasted Chicken Cheeseburger</h3>
+                </a>
+
+                <div class="recipe-info small">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    30 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-drumstick-bite"></i>
+                    Chicken
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/fried-rice.jpeg" alt="Healthy Japanese Fried Rice" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add fried rice to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Healthy Japanese Fried Rice with Asparagus</h3>
+                </a>
+
+                <div class="recipe-info small">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    25 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-bowl-food"></i>
+                    Rice
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/roll.webp" alt="Cauliflower Walnut Taco" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add cauliflower taco to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Cauliflower Walnut Vegetarian Taco Meat</h3>
+                </a>
+
+                <div class="recipe-info small">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    25 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-leaf"></i>
+                    Vegan
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/chicken-salad.webp" alt="Rainbow Chicken Salad" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add chicken salad to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Rainbow Chicken Salad with Honey Mustard Dressing</h3>
+                </a>
+
+                <div class="recipe-info small">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    20 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-leaf"></i>
+                    Healthy
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/spicy-sandwich.webp" alt="Spicy Barbeque Sandwich" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add spicy sandwich to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Barbeque Spicy Sandwiches with Chips</h3>
+                </a>
+
+                <div class="recipe-info small">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    20 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-utensils"></i>
+                    Snack
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/lettuce-salad.jpg" alt="Vegan Lettuce Wraps" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add vegan lettuce wraps to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Firecracker Vegan Lettuce Wraps - Spicy!</h3>
+                </a>
+
+                <div class="recipe-info small">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    15 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-leaf"></i>
+                    Vegan
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+
+            <article class="recipe-card">
+
+              <div class="recipe-image">
+
+                <img src="image/soup.jpg" alt="Chicken Ramen Soup" loading="lazy">
+
+                <button class="favorite-btn" type="button" aria-label="Add chicken ramen soup to favorites"
+                  aria-pressed="false">
+
+                  <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+              </div>
+
+              <div class="recipe-content">
+
+                <a href="/recipes.html" class="recipe-title">
+                  <h3>Chicken Ramen Soup with Mushroom</h3>
+                </a>
+
+                <div class="recipe-info small">
+                  <span>
+                    <i class="fa-solid fa-stopwatch"></i>
+                    35 Minutes
+                  </span>
+
+                  <span>
+                    <i class="fa-solid fa-bowl-food"></i>
+                    Soup
+                  </span>
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= NEWSLETTER ================= -->
+    <section id="inbox">
+
+      <div class="container newsletter-container">
+
+        <div class="newsletter-content">
+
+          <span class="section-label">
+            STAY UPDATED
+          </span>
+
+          <h2>
+            Deliciousness to your inbox
+          </h2>
+
+          <p>
+            Get new recipes, cooking inspiration and healthy food
+            ideas delivered straight to your inbox.
+          </p>
+
+          <form id="newsletterForm" class="newsletter-form" novalidate>
+
+            <label for="email" class="visually-hidden">
+              Email address
+            </label>
+
+            <input type="email" id="email" name="email" class="form-control" placeholder="Your email address..."
+              autocomplete="email" required>
+
+            <button type="submit" class="btn btn-dark-custom">
+              Subscribe
+            </button>
+
+          </form>
+
+          <div id="newsletterMessage" class="newsletter-message" role="status" aria-live="polite">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div>
+
+          <a href="/home.html" class="footer-logo">
+            <img src="image/logo.svg" alt="Eatflow">
+          </a>
+
+          <p>
+            Delicious recipes. Simple cooking. Better everyday meals.
+          </p>
+
+        </div>
+
+
+        <nav class="footer-links" aria-label="Footer navigation">
+
+          <a href="/recipes.html">Recipes</a>
+          <a href="/blog.html">Blog</a>
+          <a href="/contact.html">Contact</a>
+          <a href="/about.html">About us</a>
+
+        </nav>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <p>
+          &copy;
+          <span id="currentYear">2026</span>
+          Eatflow. All rights reserved.
+        </p>
+
+        <div class="footer-social">
+
+          <a href="home.html" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="home.html" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="home.html" aria-label="X">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+  <!-- Custom JS -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>

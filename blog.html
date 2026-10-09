@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EatFlow - Blog</title>
+
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+        <nav class="navbar navbar-expand-md bg-black navbar-dark">
+            <div class="container">
+
+                <a class="navbar-brand" href="/home.html" aria-label="Eatflow home">
+                    <img src="image/logo.svg" alt="Eatflow" class="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <i class="fa-solid fa-bars open" aria-hidden="true"></i>
+                    <i class="fa-solid fa-xmark close" aria-hidden="true"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav justify-content-center mx-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/home.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/recipes.html">
+                                Recipes
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/blog.html">
+                                Blog
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html">
+                                About us
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="social-links d-flex gap-3">
+
+                        <a href="#" aria-label="Follow Eatflow on Facebook" class="text-white social-link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="Follow Eatflow on Instagram" class="text-white social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="Follow Eatflow on X" class="text-white social-link">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- =====================================================
+         BLOG HERO
+    ====================================================== -->
+
+    <section class="blog-hero">
+
+        <div class="container">
+
+            <div class="blog-hero-content text-center">
+
+                <span class="section-label">
+                    EATFLOW BLOG
+                </span>
+
+                <h1>
+
+                    Stories, tips &
+                    <span class="highlight">
+                        tasty ideas.
+                    </span>
+
+                </h1>
+
+                <p>
+
+                    Discover cooking tips, food stories, healthy
+                    ideas and inspiration to make every meal better.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FEATURED BLOG
+    ====================================================== -->
+
+    <section class="featured-blog">
+
+        <div class="container">
+
+
+            <div class="section-heading-row">
+
+                <div>
+
+                    <span class="section-label">
+                        FEATURED
+                    </span>
+
+                    <h2>
+                        From our kitchen
+                    </h2>
+
+                </div>
+
+                <a href="/blog.html" class="btn btn-soft">
+                    Explore Articles
+                </a>
+
+            </div>
+
+
+
+            <div class="featured-blog-card">
+
+                <div class="row g-0 align-items-stretch">
+
+
+                    <!-- IMAGE -->
+
+                    <div class="col-lg-7">
+
+                        <div class="featured-blog-image">
+
+                            <img src="image/blog.jpg" alt="Healthy food preparation">
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CONTENT -->
+
+                    <div class="col-lg-5">
+
+                        <div class="featured-blog-content">
+
+                            <span class="blog-category">
+                                HEALTHY EATING
+                            </span>
+
+                            <h2>
+
+                                Simple ways to make
+                                your everyday meals
+                                healthier
+
+                            </h2>
+
+                            <p>
+
+                                Small changes in the kitchen can make
+                                a big difference. Discover easy ideas
+                                to create delicious and balanced meals
+                                without complicated ingredients.
+
+                            </p>
+
+
+                            <div class="blog-meta">
+
+                                <span>
+                                    <i class="fa-regular fa-calendar"></i>
+                                    Oct 05, 2026
+                                </span>
+
+                                <span>
+                                    <i class="fa-regular fa-clock"></i>
+                                    5 min read
+                                </span>
+
+                            </div>
+
+
+                            <a href="#" class="btn btn-dark-custom">
+
+                                Read Article
+
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         BLOG POSTS
+    ====================================================== -->
+
+    <section class="blog-posts" id="blogPosts">
+
+        <div class="container">
+
+
+            <div class="section-top text-center mx-auto">
+
+                <span class="section-label">
+                    LATEST ARTICLES
+                </span>
+
+                <h2>
+
+                    Fresh from the
+                    <span class="highlight">
+                        EatFlow kitchen
+                    </span>
+
+                </h2>
+
+                <p>
+
+                    Explore our latest food stories, cooking tips,
+                    recipes and kitchen inspiration.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="row g-4">
+
+
+                <!-- BLOG CARD 1 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="blog-card">
+
+                        <div class="blog-card-image">
+
+                            <img src="image/healthy-breakfast.jpg" alt="Healthy breakfast">
+
+                            <span class="blog-category-badge">
+                                BREAKFAST
+                            </span>
+
+                        </div>
+
+
+                        <div class="blog-card-content">
+
+                            <div class="blog-meta">
+
+                                <span>
+                                    <i class="fa-regular fa-calendar"></i>
+                                    Oct 03, 2026
+                                </span>
+
+                                <span>
+                                    <i class="fa-regular fa-clock"></i>
+                                    4 min
+                                </span>
+
+                            </div>
+
+
+                            <h3>
+
+                                7 easy breakfast ideas
+                                for busy mornings
+
+                            </h3>
+
+
+                            <p>
+
+                                Start your day with delicious
+                                breakfast ideas that are quick,
+                                simple and satisfying.
+
+                            </p>
+
+
+                            <a href="#" class="blog-read-more">
+
+                                Read More
+
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- BLOG CARD 2 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="blog-card">
+
+                        <div class="blog-card-image">
+
+                            <img src="image/cook-vegetables.jpg" alt="Cooking vegetables">
+
+                            <span class="blog-category-badge">
+                                COOKING TIPS
+                            </span>
+
+                        </div>
+
+
+                        <div class="blog-card-content">
+
+                            <div class="blog-meta">
+
+                                <span>
+                                    <i class="fa-regular fa-calendar"></i>
+                                    Sep 30, 2026
+                                </span>
+
+                                <span>
+                                    <i class="fa-regular fa-clock"></i>
+                                    6 min
+                                </span>
+
+                            </div>
+
+
+                            <h3>
+
+                                Kitchen tricks every
+                                home cook should know
+
+                            </h3>
+
+
+                            <p>
+
+                                Make cooking easier with these
+                                practical tips and simple kitchen
+                                techniques.
+
+                            </p>
+
+
+                            <a href="#" class="blog-read-more">
+
+                                Read More
+
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- BLOG CARD 3 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="blog-card">
+
+                        <div class="blog-card-image">
+
+                            <img src="image/vegetables.jpg" alt="Fresh vegetables">
+
+                            <span class="blog-category-badge">
+                                HEALTHY
+                            </span>
+
+                        </div>
+
+
+                        <div class="blog-card-content">
+
+                            <div class="blog-meta">
+
+                                <span>
+                                    <i class="fa-regular fa-calendar"></i>
+                                    Sep 27, 2026
+                                </span>
+
+                                <span>
+                                    <i class="fa-regular fa-clock"></i>
+                                    5 min
+                                </span>
+
+                            </div>
+
+
+                            <h3>
+
+                                Why adding more vegetables
+                                to your meals matters
+
+                            </h3>
+
+
+                            <p>
+
+                                Discover tasty ways to add more
+                                colorful vegetables to your everyday
+                                meals.
+
+                            </p>
+
+
+                            <a href="#" class="blog-read-more">
+
+                                Read More
+
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- BLOG CARD 4 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="blog-card">
+
+                        <div class="blog-card-image">
+
+                            <img src="image/pasta-cook.jpg" alt="Pasta cooking">
+
+                            <span class="blog-category-badge">
+                                RECIPES
+                            </span>
+
+                        </div>
+
+
+                        <div class="blog-card-content">
+
+                            <div class="blog-meta">
+
+                                <span>
+                                    <i class="fa-regular fa-calendar"></i>
+                                    Sep 24, 2026
+                                </span>
+
+                                <span>
+                                    <i class="fa-regular fa-clock"></i>
+                                    7 min
+                                </span>
+
+                            </div>
+
+
+                            <h3>
+
+                                How to make restaurant-style
+                                pasta at home
+
+                            </h3>
+
+
+                            <p>
+
+                                Learn a few simple techniques that
+                                can take your homemade pasta to the
+                                next level.
+
+                            </p>
+
+
+                            <a href="#" class="blog-read-more">
+
+                                Read More
+
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- BLOG CARD 5 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="blog-card">
+
+                        <div class="blog-card-image">
+
+                            <img src="image/meal-preparation.jpg" alt="Meal preparation">
+
+                            <span class="blog-category-badge">
+                                MEAL PREP
+                            </span>
+
+                        </div>
+
+
+                        <div class="blog-card-content">
+
+                            <div class="blog-meta">
+
+                                <span>
+                                    <i class="fa-regular fa-calendar"></i>
+                                    Sep 21, 2026
+                                </span>
+
+                                <span>
+                                    <i class="fa-regular fa-clock"></i>
+                                    5 min
+                                </span>
+
+                            </div>
+
+
+                            <h3>
+
+                                Easy meal prep ideas
+                                for the whole week
+
+                            </h3>
+
+
+                            <p>
+
+                                Save time during busy weekdays
+                                with these simple and delicious
+                                meal preparation ideas.
+
+                            </p>
+
+
+                            <a href="#" class="blog-read-more">
+
+                                Read More
+
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- BLOG CARD 6 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="blog-card">
+
+                        <div class="blog-card-image">
+
+                            <img src="image/dessert.jpg" alt="Dessert">
+
+                            <span class="blog-category-badge">
+                                DESSERT
+                            </span>
+
+                        </div>
+
+
+                        <div class="blog-card-content">
+
+                            <div class="blog-meta">
+
+                                <span>
+                                    <i class="fa-regular fa-calendar"></i>
+                                    Sep 18, 2026
+                                </span>
+
+                                <span>
+                                    <i class="fa-regular fa-clock"></i>
+                                    4 min
+                                </span>
+
+                            </div>
+
+
+                            <h3>
+
+                                Sweet treats that are
+                                worth making at home
+
+                            </h3>
+
+
+                            <p>
+
+                                From quick desserts to weekend
+                                baking projects, discover something
+                                sweet for every occasion.
+
+                            </p>
+
+
+                            <a href="#" class="blog-read-more">
+
+                                Read More
+
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CATEGORIES
+    ====================================================== -->
+
+    <section class="blog-categories">
+
+        <div class="container">
+
+
+            <div class="section-top text-center mx-auto">
+
+                <span class="section-label">
+                    EXPLORE
+                </span>
+
+                <h2>
+                    Browse by
+                    <span class="highlight">
+                        category
+                    </span>
+                </h2>
+
+            </div>
+
+
+            <div class="row g-3">
+
+
+                <div class="col-6 col-md-3">
+
+                    <a href="#" class="blog-category-card">
+
+                        <i class="fa-solid fa-carrot"></i>
+
+                        <span>
+                            Healthy
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+                <div class="col-6 col-md-3">
+
+                    <a href="#" class="blog-category-card">
+
+                        <i class="fa-solid fa-utensils"></i>
+
+                        <span>
+                            Cooking Tips
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+                <div class="col-6 col-md-3">
+
+                    <a href="#" class="blog-category-card">
+
+                        <i class="fa-solid fa-bowl-food"></i>
+
+                        <span>
+                            Recipes
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+                <div class="col-6 col-md-3">
+
+                    <a href="#" class="blog-category-card">
+
+                        <i class="fa-solid fa-cake-candles"></i>
+
+                        <span>
+                            Desserts
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         NEWSLETTER
+    ====================================================== -->
+
+    <section id="inbox">
+
+        <div class="container">
+
+            <div class="newsletter-container">
+
+                <div class="newsletter-content">
+
+                    <span class="section-label">
+                        STAY UPDATED
+                    </span>
+
+                    <h2>
+                        Deliciousness to your inbox
+                    </h2>
+
+                    <p>
+                        Get new recipes, cooking tips and food
+                        inspiration delivered straight to your inbox.
+                    </p>
+
+
+                    <form class="newsletter-form" id="newsletterForm">
+
+                        <input type="email" class="form-control" id="email" placeholder="Your email address">
+
+                        <button type="submit" class="btn btn-dark-custom">
+                            Subscribe
+                        </button>
+
+                    </form>
+
+
+                    <div id="newsletterMessage" class="newsletter-message"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div>
+
+                    <a href="/home.html" class="footer-logo">
+                        <img src="image/logo.svg" alt="Eatflow">
+                    </a>
+
+                    <p>
+                        Delicious recipes. Simple cooking. Better everyday meals.
+                    </p>
+
+                </div>
+
+
+                <nav class="footer-links" aria-label="Footer navigation">
+
+                    <a href="/home.html">Home</a>
+                    <a href="/recipes.html">Recipes</a>
+                    <a href="/contact.html">Contact</a>
+                    <a href="/about.html">About us</a>
+
+                </nav>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    &copy;
+                    <span id="currentYear">2026</span>
+                    Eatflow. All rights reserved.
+                </p>
+
+                <div class="footer-social">
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+    <!-- Main JS -->
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
